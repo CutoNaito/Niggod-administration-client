@@ -33,7 +33,7 @@ public class ConsoleDB
                 item.Execute();
             }
             ));
-        menu.Add(new MenuItem("Exit program", () => { exit = true; }));
+        menu.Add(new MenuItem("3. Exit program", () => { exit = true; }));
 
         while (!exit)
         {

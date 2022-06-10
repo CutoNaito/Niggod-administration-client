@@ -8,6 +8,7 @@ public class Menu
     public Menu(string capt)
     {
         caption = capt;
+        Console.WriteLine(caption);
     }
 
     public MenuItem Selection()
@@ -42,5 +43,6 @@ public class Menu
     public void Add(MenuItem item)
     {
         menuItems.Add(item);
+        Console.WriteLine(item.ToString());
     }
 }
